@@ -6,4 +6,4 @@ spring:
 server:
   port: '8080'
 my:
-  greeting: Hello Everyone!!!
+  greeting: Updated Hello Everyone!!!
