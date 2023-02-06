@@ -5,3 +5,5 @@ spring:
     password: Suvetha18
 server:
   port: '8080'
+my:
+  greeting: Hello from config server!!!
