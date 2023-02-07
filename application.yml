@@ -3,7 +3,16 @@ spring:
     username: root
     url: jdbc:mysql://localhost:3306/health_care_systems
     password: Suvetha18
+  cloud:
+    config:
+      discovery:
+        enabled: 'true'
+        service-id: config
+      password: configPassword
+      name: zipkin
+      username: configUser
 server:
   port: '8080'
+  
 my:
   greeting: Welcome everyone to the grand karigalan magic show!!!
