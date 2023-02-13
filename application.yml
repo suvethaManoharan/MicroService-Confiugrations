@@ -1,5 +1,0 @@
-server:
-  port: '8080'
-  
-my:
-  greeting: Welcome everyone to the grand karigalan magic show!!!
