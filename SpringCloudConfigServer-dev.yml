@@ -1,0 +1,19 @@
+server:
+  port: '8080'
+spring:
+  cloud:
+    vault:
+      kv:
+        enabled: 'true'
+      scheme: http
+      authentication: TOKEN
+      host: 127.0.0.1
+      token: 3HiyuVXv3mj0TIuqgPKBEwMgFSCtNlpPXO8Pn2MD+FQ=
+      port: '8200'
+  config:
+    import: vault://
+  application: SpringCloudConfigServer
+    name: 
+  datsource:
+    url: jdbc:mysql://localhost:3306/health_care_systems
+
