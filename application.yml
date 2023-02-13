@@ -1,8 +1,3 @@
-spring:
-  datasource:
-    username: root
-    url: jdbc:mysql://localhost:3306/health_care_systems
-    password: Suvetha18
 server:
   port: '8080'
   
