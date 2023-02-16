@@ -5,4 +5,4 @@ spring:
     url: jdbc:mysql://localhost:3306/health_care_systems
     username: ${username}
     password: ${password}
-message: "Hi i am swetha!!"
+message: ${password}
